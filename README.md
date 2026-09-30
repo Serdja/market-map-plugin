@@ -41,6 +41,12 @@ claude --plugin-dir <plugin-folder>
 
 No setup or secret is required: the MCP endpoint is public and read-only.
 
+## Privacy
+
+The plugin connects to a public, read-only MCP server. Its answers contain
+anonymized aggregates and request wording without contacts. The plugin does
+not collect or send personal data. See the [privacy policy](https://tg-leads-landing.vercel.app/privacy).
+
 ---
 
 # Market Map — русский
@@ -56,3 +62,9 @@ No setup or secret is required: the MCP endpoint is public and read-only.
 
 Команды и примеры те же, что выше. Для установки секреты и отдельный `SETUP.md`
 не нужны: публичный endpoint доступен только на чтение.
+
+## Конфиденциальность
+
+Плагин подключается к публичному MCP-серверу только на чтение. Ответы содержат
+обезличенные агрегаты и формулировки запросов без контактов. Плагин не собирает
+и не отправляет персональные данные. [Политика конфиденциальности](https://tg-leads-landing.vercel.app/privacy).
