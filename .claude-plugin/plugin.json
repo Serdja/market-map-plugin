@@ -1,0 +1,19 @@
+{
+  "name": "market-map",
+  "version": "0.1.0",
+  "description": "Live market signals by region. Bali is live; Phuket is planned.",
+  "author": {
+    "name": "Market Map"
+  },
+  "homepage": "https://tg-leads-landing.vercel.app/",
+  "license": "MIT",
+  "keywords": [
+    "market research",
+    "Bali",
+    "real estate",
+    "rental market",
+    "demand signals",
+    "MCP",
+    "Phuket"
+  ]
+}
