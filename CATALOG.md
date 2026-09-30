@@ -5,6 +5,6 @@ only; no marketplace application has been submitted.
 
 | Field | Draft |
 | --- | --- |
-| Display name | Market Map |
+| Display name | Market Map by Bali Leads |
 | Short description | Live market demand and rental signals by region. Bali is live; Phuket is planned. |
 | Keywords | market research, Bali, real estate, rental market, demand signals, MCP, Phuket |
