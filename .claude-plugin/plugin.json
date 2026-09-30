@@ -1,11 +1,17 @@
 {
   "name": "market-map",
-  "version": "0.1.0",
+  "version": "0.1.1",
+  "icon": ".claude-plugin/icon.svg",
   "description": "Live market signals by region. Bali is live; Phuket is planned.",
   "author": {
     "name": "Market Map"
   },
   "homepage": "https://tg-leads-landing.vercel.app/",
+  "privacyPolicyUrl": "https://tg-leads-landing.vercel.app/privacy",
+  "termsOfServiceUrl": "https://tg-leads-landing.vercel.app/terms",
+  "supportUrl": "https://tg-leads-landing.vercel.app/",
+  "repository": "https://github.com/Serdja/market-map-plugin",
+  "documentationUrl": "https://github.com/Serdja/market-map-plugin#readme",
   "license": "MIT",
   "keywords": [
     "market research",
