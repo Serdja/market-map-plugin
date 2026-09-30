@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "market-map": {
+      "type": "http",
+      "url": "https://tg-leads-landing.vercel.app/mcp"
+    }
+  }
+}
