@@ -1,5 +1,6 @@
 {
   "name": "market-map",
+  "displayName": "Market Map by Bali Leads",
   "version": "0.1.1",
   "icon": ".claude-plugin/icon.svg",
   "description": "Live market signals by region. Bali is live; Phuket is planned.",
