@@ -6,6 +6,8 @@ endpoint and does not require an API key.
 
 Landing: <https://tg-leads-landing.vercel.app/>
 
+Connector documentation: [five tools, niches, areas, privacy and freshness](docs/connector.md).
+
 ## What it provides
 
 - Demand and supply snapshots by niche and area
@@ -44,8 +46,7 @@ No setup or secret is required: the MCP endpoint is public and read-only.
 ## Privacy
 
 The plugin connects to a public, read-only MCP server. Its answers contain
-anonymized aggregates and request wording without contacts. The plugin does
-not collect or send personal data. See the [privacy policy](https://tg-leads-landing.vercel.app/privacy).
+aggregates and filtered request excerpts. Before public export, detected phone numbers, email addresses, usernames and links are removed, detected author-name tokens are masked, and excerpts with ambiguous names or obfuscated contacts are omitted. This automated filtering is not a guarantee of complete de-identification. Original messages are stored separately by Bali Leads; the connector reads only the filtered public export. See the [privacy policy](https://tg-leads-landing.vercel.app/privacy).
 
 ---
 
@@ -66,5 +67,4 @@ not collect or send personal data. See the [privacy policy](https://tg-leads-lan
 ## Конфиденциальность
 
 Плагин подключается к публичному MCP-серверу только на чтение. Ответы содержат
-обезличенные агрегаты и формулировки запросов без контактов. Плагин не собирает
-и не отправляет персональные данные. [Политика конфиденциальности](https://tg-leads-landing.vercel.app/privacy).
+агрегаты и отфильтрованные формулировки запросов. До публичного экспорта удаляются распознанные телефоны, email, ники и ссылки; распознанные части имени автора маскируются, сомнительные фрагменты исключаются. Автоматическая фильтрация не гарантирует полного обезличивания. Исходные сообщения хранятся отдельно; коннектор читает публичный экспорт. Подробнее: [документация коннектора](docs/connector.md). [Политика конфиденциальности](https://tg-leads-landing.vercel.app/privacy).

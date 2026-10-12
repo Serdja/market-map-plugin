@@ -1,9 +1,9 @@
 {
   "name": "market-map",
   "displayName": "Market Map by Bali Leads",
-  "version": "0.1.1",
-  "icon": ".claude-plugin/icon.svg",
-  "description": "Live market signals by region. Bali is live; Phuket is planned.",
+  "version": "0.1.2",
+  "icon": "https://raw.githubusercontent.com/Serdja/market-map-plugin/fe1d8caf442ea75ec4ed6c06677125fbfab79c63/.claude-plugin/icon.svg",
+  "description": "Read-only market demand and supply signals from configured public Bali Telegram groups about housing, rentals and local services. Detected contacts and links are removed from public excerpts, detected author-name tokens are masked, and ambiguous excerpts are omitted before public export. Automated filtering may miss personal details. Bali is live; Phuket is planned.",
   "author": {
     "name": "Market Map"
   },
@@ -12,7 +12,7 @@
   "termsOfServiceUrl": "https://tg-leads-landing.vercel.app/terms",
   "supportUrl": "https://tg-leads-landing.vercel.app/",
   "repository": "https://github.com/Serdja/market-map-plugin",
-  "documentationUrl": "https://github.com/Serdja/market-map-plugin#readme",
+  "documentationUrl": "https://github.com/Serdja/market-map-plugin/blob/main/docs/connector.md",
   "license": "MIT",
   "keywords": [
     "market research",
