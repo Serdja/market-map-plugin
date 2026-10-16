@@ -33,6 +33,12 @@ region. This keeps the skill reusable as more regions are added.
 - Include the response's `generated_at` timestamp whenever reporting live
   figures. It tells the reader when the aggregated data was generated, not when
   an individual requester acted.
+- Check `data_freshness` when returned. `stale` or `unknown` means the figures
+  must be described as a saved snapshot, not current demand. `status: live`
+  describes region coverage and is independent of data freshness. Older server
+  versions may omit the freshness field; then compare `generated_at` to the
+  current time and flag snapshots older than 24 hours. Do not replace missing
+  fresh observations with zeros or alter their timestamps.
 - Report only fields the tool returned. Say when the sample is limited or a
   niche/area is unavailable; never invent a price, supply count, or trend.
 
